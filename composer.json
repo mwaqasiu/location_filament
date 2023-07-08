@@ -1,0 +1,39 @@
+{
+    "name": "centosquare/location_filament",
+    "description": "This package provides location CRUD for filament admin panel",
+    "keywords": [
+        "laravel",
+        "filament",
+        "location-crud",
+        "location",
+        "country",
+        "state",
+        "city"
+    ],
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CentoSquare",
+            "email": "development@centosquare.com"
+        },
+        {
+            "name": "Muhammad Waqas",
+            "email": "mwaqasiu@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "CentoSquare\\LocationFilament\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CentoSquare\\LocationFilament\\LaravelBladeComponentsServiceProvider"
+            ]
+        }
+    }
+}
