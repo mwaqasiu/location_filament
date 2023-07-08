@@ -1,9 +1,8 @@
 <?php
 namespace CentoSquare\LocationFilament;
 
-use Filament\Navigation\UserMenuItem;
-use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
+use Filament\PluginServiceProvider;
 
 class LocationFilamentServiceProvider extends PluginServiceProvider
 {
